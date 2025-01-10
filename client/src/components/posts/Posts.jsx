@@ -6,7 +6,7 @@ import { makeRequest } from "../../axios";
 const Posts = ({ userid }) => {
   const { isLoading, error, data } = useQuery(["posts"], () =>
     makeRequest
-      .get(`/api/posts?userid=${userid}`, { withCredentials: true }) // Use withCredentials
+      .get(`/api/posts?userid=${userid}`, { withCredentials: true }) 
       .then((res) => res.data)
   );
 
