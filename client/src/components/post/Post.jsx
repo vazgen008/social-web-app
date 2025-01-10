@@ -64,6 +64,7 @@ const Post = ({ post }) => {
           <div className="userInfo">
             <img src={post.profilePic} alt="" />
             <div className="details">
+              
               <Link
                 to={`/profile/${post.userid}`}
                 style={{ textDecoration: "none", color: "inherit" }}
