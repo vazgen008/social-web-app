@@ -9,7 +9,7 @@ export const AuthContextProvider = ({ children }) => {
   );
 
   const login = async (inputs) => {
-    const res = await axios.post("  https://b77c-217-113-25-40.ngrok-free.app/api/auth/login", inputs, {
+    const res = await axios.post("https://7d0e-217-113-25-41.ngrok-free.app/api/auth/login", inputs, {
       withCredentials: true,
     });
 

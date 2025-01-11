@@ -20,7 +20,7 @@ const Register = () => {
     e.preventDefault();
 
     try {
-      await axios.post(" https://b77c-217-113-25-40.ngrok-free.app/api/auth/register", inputs);
+      await axios.post("https://7d0e-217-113-25-41.ngrok-free.app/api/auth/register", inputs);
     } catch (err) {
       setErr(err.response.data);
     }
